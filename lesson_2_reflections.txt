@@ -14,3 +14,20 @@ The command git add [filename] adds a file to the staging area.
 The command git status will display the files currently in the staging area and the remaining files in the working directory.
 This gives you the opportunity to reconsider the files you have placed in the staging area before you create a new Git commit.
 The repository is the location on Git of a clone of your local workding directory including only the files included in your Git commits.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to examine what files have been added and are ready to be committed relative to the files still in the working directory.
+You can simply view the files and make final considerations before ever taking the final step to actually commit files to the repository.
+Also the Git command git diff --staged will compare the files currently in the staging area to the most recent commit in the repository.
+This gives you even more control and feedback around the choise about when to add a logical commit to the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are great when you are working on an aspect of the project that you know is not ready and don't want to effect the working code on the master branch.
+Branches help in a situation like that because you get all the benefits of version-control without effecting the working master branch.
+It helps keep the history organized on a deeper level because when your other branch's code is working you can merge it into the main branch with no loss of continuity.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams don't help me visualize the branch structure. They confused me especially the hand written diagram.
