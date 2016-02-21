@@ -31,3 +31,10 @@ It helps keep the history organized on a deeper level because when your other br
 How do the diagrams help you visualize the branch structure?
 
 The diagrams don't help me visualize the branch structure. They confused me especially the hand written diagram.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Back to the damn diagram I don't know why yal represent it in the diagram the way that you do. 
+I assume it makes sense to you to do it that way lol.
+The result of merging two branches together is that the smaller branch gets absorbed by the master branch including all version history.
+The git log displays the various commit histories in order of timestamp.
