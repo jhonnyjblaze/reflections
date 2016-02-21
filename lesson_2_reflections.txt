@@ -1,0 +1,16 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You move into the directory you want to create a repository for and run the command git init.
+Git responded "Initialized empty Git repository in C:/Users/jblaze/Desktop/udacity_Shell/version-control/reflections/.git/"
+From here now I can create git commits and begin to take advantage of the power of version-control.
+Beyond version-control, I now have a repository that can be cloned by other Git users.
+Now multiple parties can contribute to the repository in a decentralized manner.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is an intermediary between the repository and the working directory.
+The reposiotry recieves files from the working directory by passing files to it via the staging area.
+The command git add [filename] adds a file to the staging area.
+The command git status will display the files currently in the staging area and the remaining files in the working directory.
+This gives you the opportunity to reconsider the files you have placed in the staging area before you create a new Git commit.
+The repository is the location on Git of a clone of your local workding directory including only the files included in your Git commits.
