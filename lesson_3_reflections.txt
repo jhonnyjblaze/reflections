@@ -4,3 +4,12 @@ I would want to create a remote repository for the times in life when I want to 
 I would want to create remote repository as well because I believe in triple redundancy and I trust if it is of technology I will break it or it will malfunction under my care.
 Really for me the question is better asked when would I not want to create a remote repository?
 Sir, I do not know.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+Is it not obvious that I am a paranoid control freak yet lol.
+I am not sure why I would want Git to automatically stay up-to-date with my remote repo in the first place.
+I guess I am the weirdo but I would rather have the freedom of control esp since there is no risk of loss in functionality.
+At any time I can get the repos synced if I wanted too.
+Maybe I want to test a coders chops and I want to intentionaly give them a repo with incomplete data.
+Let me do what I will damnit! Oh right Git does do that nevermind.
