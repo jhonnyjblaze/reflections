@@ -1,1 +1,6 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+I would want to create a remote repository for the times in life when I want to be able to work (like always) and when I was away from my computer but not the Internet (not often).
+I would want to create remote repository as well because I believe in triple redundancy and I trust if it is of technology I will break it or it will malfunction under my care.
+Really for me the question is better asked when would I not want to create a remote repository?
+Sir, I do not know.
