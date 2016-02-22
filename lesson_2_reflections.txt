@@ -38,3 +38,10 @@ Back to the damn diagram I don't know why yal represent it in the diagram the wa
 I assume it makes sense to you to do it that way lol.
 The result of merging two branches together is that the smaller branch gets absorbed by the master branch including all version history.
 The git log displays the various commit histories in order of timestamp.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The main pro is that it does not automatically merge if there is a conflict it cannot reasonable reconcile.
+In those instances where it cannot reconcile data, it forces you to do a manual merge. 
+The other main pro is that auto merging saves you lots of time when you do not need to do a manual merge.
+Always doing a manual merge would be a source of frustation and adding time to the development of projects =).
