@@ -1,9 +1,13 @@
 When would you want to create a remote repository rather than keeping all your work local?
 
-I would want to create a remote repository for the times in life when I want to be able to work (like always) and when I was away from my computer but not the Internet (not often).
-I would want to create remote repository as well because I believe in triple redundancy and I trust if it is of technology I will break it or it will malfunction under my care.
+
+I would want to create a remote repository for the times in life when I want to be able to work (like always), 
+and when I was away from my computer but not the Internet (not often).
+I would want to create remote repository as well because I believe in triple redundancy, 
+and I trust if it is of technology I will break it or it will malfunction under my care.
 Really for me the question is better asked when would I not want to create a remote repository?
 Sir, I do not know.
+
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
@@ -13,3 +17,39 @@ I guess I am the weirdo but I would rather have the freedom of control esp since
 At any time I can get the repos synced if I wanted too.
 Maybe I want to test a coders chops and I want to intentionaly give them a repo with incomplete data.
 Let me do what I will damnit! Oh right Git does do that nevermind.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork in Git is similar to a clone with a few key differences.
+A fork is a clone that is remote instead of local because it is instead local to your remote Git repo.
+With traditional clones you have to maintain the list of users.
+However with forking anybody with a Git account can fork your repo to their Git repo. 
+From there they can make new commits that do not effect the repo they forked from at all.
+Additionally after they are happy with their forked repo. 
+They can make a pull request to the original repo for inlcusion of their modified code into that original repo.
+
+A clone is a copy of a repository locally. In Git that means the entire source repo, including all branches and commit history.
+You can make any commits on your clone repo that you want without effecting the orginial repo.
+If a repo is remote you clone it to your local. 
+Then make any commits on your local and when ready push those commits back to the remote repo.
+Additionaly if your cloned repo is public others could in turn pull commits from your repo as well.
+Clones are for working with entire repositories locally or remotely in Git.
+
+A branch is an aspect of a repository. 
+Your commit history is associated with a particular branch where work is being done. 
+That is typical the master branch that is public facing and hopefully without bugs.
+To make a new branch is to create a copy of the orgininal branch (usually master) to make commits on without changing the original branch.
+Now you can fix a bug and make as many commits as it takes to make it perfect without risk of breaking anything else that worked fine already.
+Or maybe you have a new feature you want to add.
+You can have a branch dedicated just to that new feature. 
+When it is perfect you can merge it into the master branch. 
+This can be done now with no loss of function and no loss of commit history.  
+
+Note***
+There is also a command where you can rebase instead of merging.
+However you should only do this is the branch is local and has not been pushed to remote repo.
+This is because rebasing can alter commit history including of other developers. 
+
+As a practice I am leaning towards making a branch for each aspect of my project at this point.
+For me keeping the master branch pristine is top priority.
