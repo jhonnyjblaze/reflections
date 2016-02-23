@@ -62,3 +62,15 @@ But hey I learned a lot so whatevs.
 One benefit of having a copy of the last known state of the remote stored locally is work time save.
 There is no fun working on a bug that has already been fixed and committed.
 Another benefit is that when you make epic fail code at least it can be categorized as progress when applied to the correct code base.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+I don't even understand this question. 
+I didn't even know stuff like Git or GitHub existed before now.
+So how would I collaborate without it I don't know.
+I'm just learning how to code now as it is but my assumption is there are similar services out there.
+So I suppose I would just use something else.
+I have no idea what would be easier or harder, once again just learning over here.
+I can say not using some collaboration tools would be much harder than using them no matter the learning curve.
+Esp with a project involving more than two people and more than 50 lines of code =).
