@@ -53,3 +53,12 @@ This is because rebasing can alter commit history including of other developers.
 
 As a practice I am leaning towards making a branch for each aspect of my project at this point.
 For me keeping the master branch pristine is top priority.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+I have no idea especially since my local repo of Reflections just ate it hard.
+Thank goodness I had that remote back up on Git so I only lost this one entry.
+But hey I learned a lot so whatevs.
+One benefit of having a copy of the last known state of the remote stored locally is work time save.
+There is no fun working on a bug that has already been fixed and committed.
+Another benefit is that when you make epic fail code at least it can be categorized as progress when applied to the correct code base.
