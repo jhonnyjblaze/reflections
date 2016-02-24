@@ -74,3 +74,11 @@ So I suppose I would just use something else.
 I have no idea what would be easier or harder, once again just learning over here.
 I can say not using some collaboration tools would be much harder than using them no matter the learning curve.
 Esp with a project involving more than two people and more than 50 lines of code =).
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I answered this question inadvertanetly earlier I guess,
+but for me the answer is I would always want to make changes in a separate branch.
+I want my master branch pristine. I want it the code perfect.
+I want to do work in different branches to reduce the likely hood of introducing bugs to the master.
